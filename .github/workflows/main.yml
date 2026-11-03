@@ -63,7 +63,7 @@ jobs:
           target_commitish: ${{ github.sha }}
           files: |
             artifacts/fella-windows-x86_64.exe
-            artifacts/fella-linux-x86_64
+            artifacts/fella-linux-x86_64.elf
           generate_release_notes: true
           overwrite_files: true
           fail_on_unmatched_files: true
