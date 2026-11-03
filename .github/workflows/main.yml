@@ -55,7 +55,7 @@ jobs:
       - name: Rename platform assets
         run: |
           mv artifacts/fella-windows-x86_64/fella.exe artifacts/fella-windows-x86_64.exe
-          mv artifacts/fella-linux-x86_64/fella artifacts/fella-linux-x86_64
+          mv artifacts/fella-linux-x86_64/fella artifacts/fella-linux-x86_64.elf
       - name: Upload release assets
         uses: softprops/action-gh-release@v2
         with:
